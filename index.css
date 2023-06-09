@@ -1,0 +1,120 @@
+body {
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 500px;
+  height: 600px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 58, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 15px;
+  padding: 30px;
+  padding-bottom: 45px;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+#block-1 {
+  width: 500px;
+  height: 80px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 48px;
+  margin-bottom: 15px;
+  background-color: blanchedalmond;
+}
+#block-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line-1 {
+  width: 90px;
+  height: 80px;
+  background-color: rgb(159, 162, 241);
+  border-radius: 45px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#block-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-2 {
+  width: 90px;
+  height: 80px;
+  background-color: rgb(238, 228, 208);
+  border-radius: 45px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#block-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-3 {
+  width: 90px;
+  height: 80px;
+  background-color: rgb(238, 228, 208);
+  border-radius: 45px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#block-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line-4 {
+  width: 90px;
+  height: 80px;
+  background-color: rgb(238, 228, 208);
+  border-radius: 45px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#block-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-5 {
+  width: 90px;
+  height: 80px;
+  background-color: rgb(238, 228, 208);
+  border-radius: 45px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.res {
+  background-color: rgb(159, 162, 241);
+}
