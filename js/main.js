@@ -1,10 +1,6 @@
 let block1 = document.querySelector("#block-1");
 let line1 = document.querySelectorAll(".line-1");
-// let line2 = document.querySelectorAll(".line-2");
-// let line3 = document.querySelectorAll(".line-3");
-// let line4 = document.querySelectorAll(".line-4");
 let line5 = document.querySelectorAll(".line-5");
-// let line6 = document.querySelectorAll(".line-6");
 let nums = document.querySelectorAll(".num");
 
 for (let elem of nums) {
@@ -51,9 +47,12 @@ line53.addEventListener("click", (e) => {
     } else if (elem === "*") {
       let res3 = arr.split("*");
       block1.innerText = parseFloat(res3[0]) * parseFloat(res3[1]);
-    } else if (elem === "*") {
-      let res4 = arr.split("*");
-      block1.innerText = parseFloat(res4[0]) * parseFloat(res4[1]);
+    } else if (elem === "/") {
+      let res4 = arr.split("/");
+      block1.innerText = parseFloat(res4[0]) / parseFloat(res4[1]);
+    } else if (elem === "%") {
+      let res5 = arr.split("%");
+      block1.innerText = parseFloat((res5[0] / 100) * res5[1]);
     }
   }
 });
